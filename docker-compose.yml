@@ -1,0 +1,9 @@
+version: "3.7"
+
+services: 
+  cso:
+    build: .
+    volumes: 
+      - .:/cso
+    tty: true
+    stdin_open: true
